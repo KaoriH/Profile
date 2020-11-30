@@ -1,0 +1,101 @@
+@charset "utf-8";
+hmtl {
+   font-size: 100%;
+}
+
+body {
+    background: white;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+    background-color: lightgrey;
+}
+
+.content h2 {
+    color: #EA1C2C;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+p {
+    color: black;
+    line-height: 2;
+    font-size: 1.3rem;
+}
+
+/*each section's margin*/
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1rem;
+    font-weight: 100;
+
+}
+
+.nav-item {
+    text-align: left;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    /*font-family: 'Viga', sans-serif;*/
+    color: #EA1C2C;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+#heading h1 {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.navbar.scrolled {
+    background: #EFDAC0;
+    transition: background 100ms;
+}
+
+.icon {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#footer {
+    background-color: #EFDAC0;
+    padding: 3%;
+    /*text-align: center;*/
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+a:visited {
+  color: grey;
+}
+
+@media (max-width: 1200px) {
+  #heading h1 {
+    font-size: 2rem;
+  }
+
+  .content h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
