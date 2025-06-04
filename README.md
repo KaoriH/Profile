@@ -8,7 +8,7 @@ It introduces myself and showcases basic web design skills.
 - HTML5  
 - CSS3
 
-## How to run or view
+## How to Run or View
 1. Clone or download the repository.  
 2. Open `index.html` in your web browser.
 
